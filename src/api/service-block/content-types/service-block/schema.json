@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_blocks",
+  "info": {
+    "singularName": "service-block",
+    "pluralName": "service-blocks",
+    "displayName": "Service_block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "card_1": {
+      "type": "text"
+    },
+    "card_2": {
+      "type": "string"
+    },
+    "card_3": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.faq"
+    }
+  }
+}

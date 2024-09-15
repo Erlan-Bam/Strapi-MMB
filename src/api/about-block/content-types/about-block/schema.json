@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_blocks",
+  "info": {
+    "singularName": "about-block",
+    "pluralName": "about-blocks",
+    "displayName": "About_block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "about_card": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.card"
+    }
+  }
+}

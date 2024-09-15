@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_cards",
+  "info": {
+    "displayName": "Card"
+  },
+  "options": {},
+  "attributes": {
+    "card_text": {
+      "type": "string"
+    },
+    "card_paragraph": {
+      "type": "text"
+    },
+    "card_link": {
+      "type": "string"
+    }
+  }
+}

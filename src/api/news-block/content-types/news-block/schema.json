@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_blocks",
+  "info": {
+    "singularName": "news-block",
+    "pluralName": "news-blocks",
+    "displayName": "News_block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "news_card": {
+      "displayName": "News",
+      "type": "component",
+      "repeatable": true,
+      "component": "news.news"
+    }
+  }
+}

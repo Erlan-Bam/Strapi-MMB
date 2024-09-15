@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracking_blocks",
+  "info": {
+    "singularName": "tracking-block",
+    "pluralName": "tracking-blocks",
+    "displayName": "Tracking_block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "card_text": {
+      "type": "string"
+    },
+    "card_paragraph": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+/**
+ * feedback-block controller
+ */
+
+import { factories } from '@strapi/strapi'
+
+export default factories.createCoreController('api::feedback-block.feedback-block');

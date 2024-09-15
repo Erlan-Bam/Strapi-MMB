@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "working_process_blocks",
+  "info": {
+    "singularName": "working-process-block",
+    "pluralName": "working-process-blocks",
+    "displayName": "Working_process_block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "image_card": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "image.card"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.faq"
+    }
+  }
+}

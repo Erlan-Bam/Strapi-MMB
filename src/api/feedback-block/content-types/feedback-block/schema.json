@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedback_blocks",
+  "info": {
+    "singularName": "feedback-block",
+    "pluralName": "feedback-blocks",
+    "displayName": "Feedback_block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "feedback": {
+      "displayName": "Feedback",
+      "type": "component",
+      "repeatable": true,
+      "component": "feedback.feedback"
+    }
+  }
+}

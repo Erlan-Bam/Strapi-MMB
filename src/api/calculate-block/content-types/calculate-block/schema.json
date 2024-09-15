@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calculate_blocks",
+  "info": {
+    "singularName": "calculate-block",
+    "pluralName": "calculate-blocks",
+    "displayName": "Calculate_block",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.faq"
+    },
+    "form_text": {
+      "type": "string"
+    }
+  }
+}

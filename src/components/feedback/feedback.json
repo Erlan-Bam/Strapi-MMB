@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_feedback_feedbacks",
+  "info": {
+    "displayName": "Feedback"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

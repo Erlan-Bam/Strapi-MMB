@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_blocks",
+  "info": {
+    "singularName": "main-block",
+    "pluralName": "main-blocks",
+    "displayName": "Main_block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "paragraph": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
